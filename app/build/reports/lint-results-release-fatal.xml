@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="4" by="lint 3.0.1">
+
+    <issue
+        id="ValidFragment"
+        severity="Fatal"
+        message="This fragment should provide a default constructor (a public constructor with no arguments) (`com.dsi.ant.antplus.pluginsampler.weightscale.Dialog_ConfigUserProfile`)"
+        category="Correctness"
+        priority="6"
+        summary="Fragment not instantiatable"
+        explanation="From the Fragment documentation:&#xA;**Every** fragment must have an empty constructor, so it can be instantiated when restoring its activity&apos;s state. It is strongly recommended that subclasses do not have other constructors with parameters, since these constructors will not be called when the fragment is re-instantiated; instead, arguments can be supplied by the caller with `setArguments(Bundle)` and later retrieved by the Fragment with `getArguments()`."
+        url="http://developer.android.com/reference/android/app/Fragment.html#Fragment()"
+        urls="http://developer.android.com/reference/android/app/Fragment.html#Fragment()"
+        errorLine1="public class Dialog_ConfigUserProfile extends DialogFragment"
+        errorLine2="             ~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="E:\Work\Android\source1\app\src\main\java\com\dsi\ant\antplus\pluginsampler\weightscale\Dialog_ConfigUserProfile.java"
+            line="31"
+            column="14"/>
+    </issue>
+
+    <issue
+        id="ValidFragment"
+        severity="Fatal"
+        message="Avoid non-default constructors in fragments: use a default constructor plus `Fragment#setArguments(Bundle)` instead"
+        category="Correctness"
+        priority="6"
+        summary="Fragment not instantiatable"
+        explanation="From the Fragment documentation:&#xA;**Every** fragment must have an empty constructor, so it can be instantiated when restoring its activity&apos;s state. It is strongly recommended that subclasses do not have other constructors with parameters, since these constructors will not be called when the fragment is re-instantiated; instead, arguments can be supplied by the caller with `setArguments(Bundle)` and later retrieved by the Fragment with `getArguments()`."
+        url="http://developer.android.com/reference/android/app/Fragment.html#Fragment()"
+        urls="http://developer.android.com/reference/android/app/Fragment.html#Fragment()"
+        errorLine1="    public Dialog_ConfigUserProfile(UserProfile profile)"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="E:\Work\Android\source1\app\src\main\java\com\dsi\ant\antplus\pluginsampler\weightscale\Dialog_ConfigUserProfile.java"
+            line="47"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="ValidFragment"
+        severity="Fatal"
+        message="This fragment should provide a default constructor (a public constructor with no arguments) (`com.dsi.ant.antplus.pluginsampler.geocache.Dialog_GeoDeviceDetails`)"
+        category="Correctness"
+        priority="6"
+        summary="Fragment not instantiatable"
+        explanation="From the Fragment documentation:&#xA;**Every** fragment must have an empty constructor, so it can be instantiated when restoring its activity&apos;s state. It is strongly recommended that subclasses do not have other constructors with parameters, since these constructors will not be called when the fragment is re-instantiated; instead, arguments can be supplied by the caller with `setArguments(Bundle)` and later retrieved by the Fragment with `getArguments()`."
+        url="http://developer.android.com/reference/android/app/Fragment.html#Fragment()"
+        urls="http://developer.android.com/reference/android/app/Fragment.html#Fragment()"
+        errorLine1="public class Dialog_GeoDeviceDetails extends DialogFragment"
+        errorLine2="             ~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="E:\Work\Android\source1\app\src\main\java\com\dsi\ant\antplus\pluginsampler\geocache\Dialog_GeoDeviceDetails.java"
+            line="39"
+            column="14"/>
+    </issue>
+
+    <issue
+        id="ValidFragment"
+        severity="Fatal"
+        message="Avoid non-default constructors in fragments: use a default constructor plus `Fragment#setArguments(Bundle)` instead"
+        category="Correctness"
+        priority="6"
+        summary="Fragment not instantiatable"
+        explanation="From the Fragment documentation:&#xA;**Every** fragment must have an empty constructor, so it can be instantiated when restoring its activity&apos;s state. It is strongly recommended that subclasses do not have other constructors with parameters, since these constructors will not be called when the fragment is re-instantiated; instead, arguments can be supplied by the caller with `setArguments(Bundle)` and later retrieved by the Fragment with `getArguments()`."
+        url="http://developer.android.com/reference/android/app/Fragment.html#Fragment()"
+        urls="http://developer.android.com/reference/android/app/Fragment.html#Fragment()"
+        errorLine1="    public Dialog_GeoDeviceDetails(AntPlusGeocachePcc geoPcc,"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="E:\Work\Android\source1\app\src\main\java\com\dsi\ant\antplus\pluginsampler\geocache\Dialog_GeoDeviceDetails.java"
+            line="66"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="ValidFragment"
+        severity="Fatal"
+        message="This fragment should provide a default constructor (a public constructor with no arguments) (`com.dsi.ant.antplus.pluginsampler.geocache.Dialog_GeoProgramDevice`)"
+        category="Correctness"
+        priority="6"
+        summary="Fragment not instantiatable"
+        explanation="From the Fragment documentation:&#xA;**Every** fragment must have an empty constructor, so it can be instantiated when restoring its activity&apos;s state. It is strongly recommended that subclasses do not have other constructors with parameters, since these constructors will not be called when the fragment is re-instantiated; instead, arguments can be supplied by the caller with `setArguments(Bundle)` and later retrieved by the Fragment with `getArguments()`."
+        url="http://developer.android.com/reference/android/app/Fragment.html#Fragment()"
+        urls="http://developer.android.com/reference/android/app/Fragment.html#Fragment()"
+        errorLine1="public class Dialog_GeoProgramDevice extends DialogFragment"
+        errorLine2="             ~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="E:\Work\Android\source1\app\src\main\java\com\dsi\ant\antplus\pluginsampler\geocache\Dialog_GeoProgramDevice.java"
+            line="52"
+            column="14"/>
+    </issue>
+
+    <issue
+        id="ValidFragment"
+        severity="Fatal"
+        message="Avoid non-default constructors in fragments: use a default constructor plus `Fragment#setArguments(Bundle)` instead"
+        category="Correctness"
+        priority="6"
+        summary="Fragment not instantiatable"
+        explanation="From the Fragment documentation:&#xA;**Every** fragment must have an empty constructor, so it can be instantiated when restoring its activity&apos;s state. It is strongly recommended that subclasses do not have other constructors with parameters, since these constructors will not be called when the fragment is re-instantiated; instead, arguments can be supplied by the caller with `setArguments(Bundle)` and later retrieved by the Fragment with `getArguments()`."
+        url="http://developer.android.com/reference/android/app/Fragment.html#Fragment()"
+        urls="http://developer.android.com/reference/android/app/Fragment.html#Fragment()"
+        errorLine1="    public Dialog_GeoProgramDevice(AntPlusGeocachePcc geoPcc,"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="E:\Work\Android\source1\app\src\main\java\com\dsi\ant\antplus\pluginsampler\geocache\Dialog_GeoProgramDevice.java"
+            line="83"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="ValidFragment"
+        severity="Fatal"
+        message="This fragment should provide a default constructor (a public constructor with no arguments) (`com.dsi.ant.antplus.pluginsampler.geocache.Dialog_GeoRequestAuthToken`)"
+        category="Correctness"
+        priority="6"
+        summary="Fragment not instantiatable"
+        explanation="From the Fragment documentation:&#xA;**Every** fragment must have an empty constructor, so it can be instantiated when restoring its activity&apos;s state. It is strongly recommended that subclasses do not have other constructors with parameters, since these constructors will not be called when the fragment is re-instantiated; instead, arguments can be supplied by the caller with `setArguments(Bundle)` and later retrieved by the Fragment with `getArguments()`."
+        url="http://developer.android.com/reference/android/app/Fragment.html#Fragment()"
+        urls="http://developer.android.com/reference/android/app/Fragment.html#Fragment()"
+        errorLine1="public class Dialog_GeoRequestAuthToken extends DialogFragment"
+        errorLine2="             ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="E:\Work\Android\source1\app\src\main\java\com\dsi\ant\antplus\pluginsampler\geocache\Dialog_GeoRequestAuthToken.java"
+            line="35"
+            column="14"/>
+    </issue>
+
+    <issue
+        id="ValidFragment"
+        severity="Fatal"
+        message="Avoid non-default constructors in fragments: use a default constructor plus `Fragment#setArguments(Bundle)` instead"
+        category="Correctness"
+        priority="6"
+        summary="Fragment not instantiatable"
+        explanation="From the Fragment documentation:&#xA;**Every** fragment must have an empty constructor, so it can be instantiated when restoring its activity&apos;s state. It is strongly recommended that subclasses do not have other constructors with parameters, since these constructors will not be called when the fragment is re-instantiated; instead, arguments can be supplied by the caller with `setArguments(Bundle)` and later retrieved by the Fragment with `getArguments()`."
+        url="http://developer.android.com/reference/android/app/Fragment.html#Fragment()"
+        urls="http://developer.android.com/reference/android/app/Fragment.html#Fragment()"
+        errorLine1="    public Dialog_GeoRequestAuthToken(AntPlusGeocachePcc geoPcc, int deviceID, long requestingDeviceSerialNum)"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="E:\Work\Android\source1\app\src\main\java\com\dsi\ant\antplus\pluginsampler\geocache\Dialog_GeoRequestAuthToken.java"
+            line="51"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="ValidFragment"
+        severity="Fatal"
+        message="This fragment should provide a default constructor (a public constructor with no arguments) (`com.dsi.ant.antplus.pluginsampler.Dialog_ProgressWaiter`)"
+        category="Correctness"
+        priority="6"
+        summary="Fragment not instantiatable"
+        explanation="From the Fragment documentation:&#xA;**Every** fragment must have an empty constructor, so it can be instantiated when restoring its activity&apos;s state. It is strongly recommended that subclasses do not have other constructors with parameters, since these constructors will not be called when the fragment is re-instantiated; instead, arguments can be supplied by the caller with `setArguments(Bundle)` and later retrieved by the Fragment with `getArguments()`."
+        url="http://developer.android.com/reference/android/app/Fragment.html#Fragment()"
+        urls="http://developer.android.com/reference/android/app/Fragment.html#Fragment()"
+        errorLine1="public class Dialog_ProgressWaiter extends DialogFragment"
+        errorLine2="             ~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="E:\Work\Android\source1\app\src\main\java\com\dsi\ant\antplus\pluginsampler\Dialog_ProgressWaiter.java"
+            line="26"
+            column="14"/>
+    </issue>
+
+    <issue
+        id="ValidFragment"
+        severity="Fatal"
+        message="Avoid non-default constructors in fragments: use a default constructor plus `Fragment#setArguments(Bundle)` instead"
+        category="Correctness"
+        priority="6"
+        summary="Fragment not instantiatable"
+        explanation="From the Fragment documentation:&#xA;**Every** fragment must have an empty constructor, so it can be instantiated when restoring its activity&apos;s state. It is strongly recommended that subclasses do not have other constructors with parameters, since these constructors will not be called when the fragment is re-instantiated; instead, arguments can be supplied by the caller with `setArguments(Bundle)` and later retrieved by the Fragment with `getArguments()`."
+        url="http://developer.android.com/reference/android/app/Fragment.html#Fragment()"
+        urls="http://developer.android.com/reference/android/app/Fragment.html#Fragment()"
+        errorLine1="    public Dialog_ProgressWaiter(String actionDescription)"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="E:\Work\Android\source1\app\src\main\java\com\dsi\ant\antplus\pluginsampler\Dialog_ProgressWaiter.java"
+            line="35"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="ValidFragment"
+        severity="Fatal"
+        message="This fragment should provide a default constructor (a public constructor with no arguments) (`com.dsi.ant.antplus.pluginsampler.watchdownloader.Dialog_WatchData`)"
+        category="Correctness"
+        priority="6"
+        summary="Fragment not instantiatable"
+        explanation="From the Fragment documentation:&#xA;**Every** fragment must have an empty constructor, so it can be instantiated when restoring its activity&apos;s state. It is strongly recommended that subclasses do not have other constructors with parameters, since these constructors will not be called when the fragment is re-instantiated; instead, arguments can be supplied by the caller with `setArguments(Bundle)` and later retrieved by the Fragment with `getArguments()`."
+        url="http://developer.android.com/reference/android/app/Fragment.html#Fragment()"
+        urls="http://developer.android.com/reference/android/app/Fragment.html#Fragment()"
+        errorLine1="public class Dialog_WatchData extends DialogFragment"
+        errorLine2="             ~~~~~~~~~~~~~~~~">
+        <location
+            file="E:\Work\Android\source1\app\src\main\java\com\dsi\ant\antplus\pluginsampler\watchdownloader\Dialog_WatchData.java"
+            line="45"
+            column="14"/>
+    </issue>
+
+    <issue
+        id="ValidFragment"
+        severity="Fatal"
+        message="Avoid non-default constructors in fragments: use a default constructor plus `Fragment#setArguments(Bundle)` instead"
+        category="Correctness"
+        priority="6"
+        summary="Fragment not instantiatable"
+        explanation="From the Fragment documentation:&#xA;**Every** fragment must have an empty constructor, so it can be instantiated when restoring its activity&apos;s state. It is strongly recommended that subclasses do not have other constructors with parameters, since these constructors will not be called when the fragment is re-instantiated; instead, arguments can be supplied by the caller with `setArguments(Bundle)` and later retrieved by the Fragment with `getArguments()`."
+        url="http://developer.android.com/reference/android/app/Fragment.html#Fragment()"
+        urls="http://developer.android.com/reference/android/app/Fragment.html#Fragment()"
+        errorLine1="    public Dialog_WatchData(DeviceInfo deviceData, List&lt;FitFile> fitFileList)"
+        errorLine2="           ~~~~~~~~~~~~~~~~">
+        <location
+            file="E:\Work\Android\source1\app\src\main\java\com\dsi\ant\antplus\pluginsampler\watchdownloader\Dialog_WatchData.java"
+            line="57"
+            column="12"/>
+    </issue>
+
+</issues>
